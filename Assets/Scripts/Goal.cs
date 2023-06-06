@@ -21,7 +21,7 @@ public class Goal : MonoBehaviour
             {
                 // se asigna el lugar del click como posicion de la meta
                 Vector3 newposition = hitData.point;
-                newposition.y = 1;
+                newposition.y += 1;
                 transform.position = newposition;
             }
         }
